@@ -1,0 +1,351 @@
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hheader{
+    background-image: url("banner.jpg");
+    height: 30rem;
+        background-size: cover;
+        background-position: center;
+    
+}
+
+.nav
+{   
+    display: flex;
+}
+.nav > .Menu-Item
+{
+    flex: 1;
+    text-align: end;
+    margin-top:20px
+}
+.nav > .Menu-Item > ul > li
+{
+    list-style: none;
+    display: inline-block;
+}
+.nav > .Menu-Item > ul > li > a {
+    text-decoration: none;
+    padding: 1.3rem ;
+    color:#52330f;
+    font-weight: 700;
+}
+.para{
+    border-style:dashed !important;
+    border:black;
+    width: 20rem;
+    margin: 5rem;
+    font-size: small;
+    
+   
+}
+.headerh1{
+    color: #52330F;
+    width: 25rem;
+    position: absolute;
+    left: 6%;
+    top: 25%;
+    font-size: 4rem;
+    font-weight: bolder;
+    box-shadow: blanchedalmond;
+    text-shadow:seashell 2px 3px  ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:bold;
+}
+
+    
+
+.image{
+    position: absolute;
+    top: 5rem;
+    right: 15rem;
+    height: 22rem;
+    width: 26rem;
+    
+}
+.video{
+    padding: 50px;
+    right: 500%;
+    justify-content: end;
+    left:2%;
+    margin-left: 180px;
+}
+.mainh1{
+    justify-content: center;
+    color:#52330F;
+    text-align: center;
+    
+    font-weight: bolder
+}
+pre{
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+
+.Order-Burger
+{
+width:60%;
+margin-left: 83px;
+}
+.sub-head {text-align:center;}
+.sub-head > h2
+{
+    font-size: 1.5rem;
+    color: #52330F;
+    font-weight: 800; 
+}
+.sub-para{
+    text-align: center;
+}
+.p1, .p2
+{
+  font-size: 0.8rem;  
+}
+.button-order 
+{
+    text-align: center;
+    margin-top:1rem
+}
+.btn-Order{
+    padding: 0.5rem  1rem  0.5rem 1rem;
+    border: none;
+    font-weight: 800;
+    background-color: #DE1E1B;
+    color: #fff;
+}
+
+#contantimage{
+    margin-left: 2rem;
+    display: flex;
+    text-align: center;
+    
+}
+.itemimg>h1{
+    font-size: 26px;
+   
+
+}
+.itemimg>h2{
+    color:  #52330F;
+
+ 
+}
+.itemimg>p{
+    text-align: center;
+   font-size: 18px;
+   margin-right: 60px;
+   padding: 5px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.itemimg>button{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    text-align: center;
+    border: red;
+    padding: 13px 20px;
+    text-transform: capitalize;
+    
+
+}
+.itemimg1{
+   margin-left: 20PX;
+
+}
+
+
+.itemimg1>h1{
+    font-size: 26px;
+   
+
+}
+.itemimg1>h2{
+    color:  #52330F;
+
+ 
+}
+.itemimg1>p{
+    text-align: center;
+   font-size: 18px;
+   margin-right: 60px;
+   padding: 5px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.itemimg1>button{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    text-align: center;
+    border: red;
+    padding: 13px 20px;
+    text-transform: capitalize;
+    
+
+}
+.itemimg2{
+   margin-left: 20PX;
+
+}
+.itemimg2>h1{
+    font-size: 26px;
+   
+
+}
+.itemimg2>h2{
+    color:  #52330F;
+
+ 
+}
+.itemimg2>p{
+    text-align: center;
+   font-size: 18px;
+   margin-right: 60px;
+   padding: 5px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.itemimg2>button{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    text-align: center;
+    border: red;
+    padding: 13px 20px;
+    text-transform: capitalize;
+    
+
+}
+.itemimg1{
+   margin-left: 20PX;
+
+}
+
+.itemimg3>h1{
+    font-size: 26px;
+   
+
+}
+.itemimg3>h2{
+    color:  #52330F;
+    margin: 0;
+
+ 
+}
+.itemimg3>p{
+    text-align: center;
+   font-size: 18px;
+   margin-right: 60px;
+   padding: 5px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.itemimg3>button{
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    background-color: red;
+    text-align: center;
+    border: red;
+    padding: 13px 20px;
+    text-transform: capitalize;
+    
+
+}
+.itemimg3{
+   margin-left: 20PX;
+
+}
+
+.aside1{
+  
+  float: right;
+top: 0.5%;
+}
+.contant2 > p {
+    font-size:18PX ;
+    border: 15px ;
+   background-color: rgb(252, 250, 250);
+   box-shadow: rgb(156, 152, 152) 1rem 2rem 2rem;
+   margin-left: 60px;
+}
+.contant2 > h1{
+    font-size:30px ;
+    color: #52330F;
+    margin-left: 30px;
+}
+.contant2 > h4{
+    color:  #52330F;
+    font-size:20px ;
+    margin-left: 1000PX;
+
+
+}
+.Banner-5{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.table-input
+{
+    margin-left:22rem;
+}
+.input
+{
+    padding: 1rem;
+    width: 19rem;
+    margin: 0.4rem;
+    border-radius:5px;
+    border:1px solid #ccc
+}
+.btn-input
+{
+    padding: 1rem;
+    width: 19rem;
+    margin: 0.4rem;
+    border-radius:5px;
+    border:1px solid #ccc;
+    background-color: #DE1E1B;
+    color: #fff
+}
+.video{
+    border-color: yellow;
+}
+.calss3 
+{
+    text-align: center;
+}
+.calss3  > h4{
+    margin: 0;
+    color:#52330F ;
+    font-weight: 800;
+}
+.calss3  > h1{
+    margin: 0;
+    color:#52330F ;
+    font-weight: 800;
+}
+.Banner-header{
+    text-align: center;
+}
+.Banner-header > h4{
+    font-size: 1.5rem;
+    color: #52330F;
+    font-weight: 700;
+    margin: 0;
+}
+.Banner-header > h1{
+    font-size: 3rem;
+    color: #52330F;
+    font-weight: 800;
+    margin: 0;
+}
+.itemimg3>h2{
+    color: #52330F;
+    font-weight: 800;
+}
